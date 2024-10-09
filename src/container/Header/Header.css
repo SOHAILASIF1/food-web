@@ -1,0 +1,38 @@
+.app-header{
+    background-color: var(--color-black);
+}
+.app-header-h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 80px;
+
+}
+.app__wrapper_img img{
+    width: 80%;
+    
+    
+}
+@media screen and (max-width:1140px) {
+    .app-header-h1 {
+        font-size: 70px;
+        line-height: 97px;
+    }
+    
+}
+@media screen and (max-width:700px){
+    .app-header-h1 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+}
+@media screen and (max-width:500px){
+    .app-header-h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+}
